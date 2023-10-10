@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins","sans-serif";
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #222;
+    background-image: url(./images/clouds-1768967_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card{
+
+    width: 90%;
+    max-width: 600px;
+    background: -webkit-linear-gradient(325deg, #00feba, #5b548a);
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    margin: 100px auto 0;
+
+}
+
+.search{
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search input{
+
+    border: 0;
+    outline: 0;
+    background: whitesmoke;
+    color: rgb(116, 1, 1);
+    padding: 10px 10px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 30px;
+}
+
+.search button{
+
+    border: 0;
+    outline: 0;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.search button:active{
+
+    background-color: rgba(255, 255, 0, 0.582);
+}
+
+button img{
+
+    height: 90%;
+}
+
+.weather-icon{
+
+    margin-top: 25px;
+}
+
+.city{
+
+    width: 530px;
+    height: 120px;
+}
+
+h1.temp{
+
+    font-size: 60px;
+    font-weight: 500;
+    margin-right: -10px;
+}
+
+h2{
+
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.details{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 65px;
+    
+}
+
+.col{
+
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.col img{
+
+    width: 50px;
+    float: left;
+}
+
+.humidity{
+
+    font-size: 20px;
+    margin-left: 0px;
+    text-align: left;
+    
+}
+
+.wind{
+
+    font-size: 20px;
+    margin-left: 8px;
+    color: wheat;
+    background-color: #00aa7d;
+    border-radius: 5px;
+    
+}
+
+.col_viento{
+
+    font-size: 20px;
+    display: flex;
+    margin-left: 50px;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.col_viento:nth-child(1){
+
+    font-size: 15px;
+}
+
+.col_viento img{
+
+    margin-right: 5px;
+}
+
+
+.forecast{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 10px;
+    margin-top: 25px;
+    
+}
+
+.forecast_days{
+
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+    height: 120px;
+    
+    
+}
+
+
+.forecast_image{
+
+    width: 60px;
+    margin: 10px auto;
+    
+}
+
+.col div:nth-child(1){
+
+    margin-right: 16px;
+}
+
