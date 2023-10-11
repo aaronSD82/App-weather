@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const API_KEY = "54dfae580d6dc78f1ccb60924461a487"
+    const API_KEY = "";
     const URL_FORECAST = "https://api.openweathermap.org/data/2.5/forecast?q="
     const SEARCHBOX = document.querySelector(".search input");
     const SEARCHBTN = document.querySelector(".search button");
